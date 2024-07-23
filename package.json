@@ -1,13 +1,16 @@
 {
-  "name": "project-root",
-  "private": true,
+  "name": "job-listing",
+  "repository": "git@github.com-salmanhaseeb:salmanhaseeb/werq-ai-assessment.git",
+  "author": "salmanhaseeb <salmanhaseeb@gmail.com>",
+  "private":"true",
+  "license": "MIT",
   "workspaces": [
     "backend",
-    "frontend"
+    "client"
   ],
   "scripts": {
     "install": "yarn install",
-    "dev": "concurrently \"yarn workspace backend dev\" \"yarn workspace frontend start\""
+    "dev": "concurrently \"yarn workspace backend dev\" \"yarn workspace client start\""
   },
   "devDependencies": {
     "concurrently": "^8.2.2"

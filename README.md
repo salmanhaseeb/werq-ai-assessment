@@ -4,6 +4,14 @@
 
 This repository contains a mono repo with a frontend and backend for a job listing web application. The project is managed using Yarn. This README provides instructions on how to set up and run the project.
 
+# Pre-req
+
+In order to run this project, you must have follwoing:
+
+1. Node.js (>= v20)
+2. yarn
+3. Mongodb
+
 ## Setup and Installation
 
 Follow these steps to get the project up and running:
@@ -38,6 +46,6 @@ This will start both the frontend and backend applications. Make sure to check t
 
 # **Project Structure**
 
-**frontend**: Contains the frontend application developed using React.
+**client**: Contains the frontend application developed using React.
 
 **backend**: Contains the backend application developed using Node.js and Express with MongoDB.
