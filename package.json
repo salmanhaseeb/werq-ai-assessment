@@ -1,0 +1,15 @@
+{
+  "name": "project-root",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "install": "yarn install",
+    "dev": "concurrently \"yarn workspace backend dev\" \"yarn workspace frontend start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

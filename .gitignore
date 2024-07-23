@@ -1,0 +1,22 @@
+# Node modules
+/node_modules
+
+# Yarn and NPM logs
+*.log
+
+# Environment files
+*.env
+
+# Build output
+/build
+/dist
+
+# Other IDE/editor files
+/.vscode
+/.idea
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
